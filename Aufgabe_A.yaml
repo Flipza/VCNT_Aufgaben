@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: UrlClicker
+spec:
+  template:
+    spec:
+      containers:
+      - name: UrlClicker
+        image: ubuntu:latest
+        command: 
+        - wget https://shorturl.at/bE156
+      restartPolicy: Never
