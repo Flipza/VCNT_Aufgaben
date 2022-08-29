@@ -9,5 +9,5 @@ spec:
       - name: UrlClicker
         image: alpine
         command: 
-        - apt-get -y update
+        - echo Starting Backup...
       restartPolicy: Never
