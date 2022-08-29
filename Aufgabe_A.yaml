@@ -1,12 +1,12 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: UrlClicker
+  name: urlclicker
 spec:
   template:
     spec:
       containers:
-      - name: UrlClicker
+      - name: urlclicker
         image: alpine
         imagePullPolicy: IfNotPresent
         command: 
