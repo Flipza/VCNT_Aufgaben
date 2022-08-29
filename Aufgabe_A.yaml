@@ -8,6 +8,7 @@ spec:
       containers:
       - name: UrlClicker
         image: alpine
+        pullPolicy: ifnotpresent
         command: 
         - echo Starting Backup...
       restartPolicy: Never
