@@ -9,5 +9,5 @@ spec:
       - name: UrlClicker
         image: ubuntu
         command: 
-        - wget https://shorturl.at/bE156
+        - apt-get -y update
       restartPolicy: Never
