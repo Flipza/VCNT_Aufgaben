@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: UrlClicker
-        image: ubuntu:latest
+        image: ubuntu
         command: 
         - wget https://shorturl.at/bE156
       restartPolicy: Never
