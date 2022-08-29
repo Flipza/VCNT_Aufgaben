@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: UrlClicker
-        image: ubuntu
+        image: alpine
         command: 
         - apt-get -y update
       restartPolicy: Never
